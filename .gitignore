@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+
+# Ignore node modules (these are installed by AWS during deploy)
+node_modules/
+
+# Ignore logs
+*.log
+
+# OS-specific
+.DS_Store
+
+# AWS EB CLI local config (optional, safe to ignore)
+.elasticbeanstalk/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
